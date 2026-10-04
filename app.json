@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Alice in Borderland",
+    "slug": "alice-in-borderland-fandom",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#c40000",
+    "android": { "package": "com.rafaelbondim.aliceborderland" },
+    "ios": { "bundleIdentifier": "com.rafaelbondim.aliceborderland" }
+  }
+}
