@@ -13,6 +13,7 @@ jobs:
         with: { distribution: temurin, java-version: 17 }
       - run: npm install
       - run: npx expo install --fix
+      - run: npx expo install expo-asset expo-constants expo-font
       - run: npx expo prebuild --platform android --no-install
       - run: cd android && chmod +x gradlew && ./gradlew assembleRelease
       - uses: softprops/action-gh-release@v2
